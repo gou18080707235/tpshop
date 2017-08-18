@@ -1,0 +1,1037 @@
+[ 2017-07-11T09:20:10+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000999s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001765s ]
+
+[ 2017-07-11T09:20:20+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001786s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002874s ]
+
+[ 2017-07-11T09:20:22+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000976s ]
+
+[ 2017-07-11T09:20:23+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2017-07-11T09:20:24+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000444s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2017-07-11T09:20:26+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2017-07-11T09:44:23+08:00 ] 127.0.0.1 /index.php/Admin/Order/exportExcel
+ERR: 参数错误或者未定义:expTitle
+
+[ 2017-07-11T09:53:58+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2017-07-11T09:53:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001996s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003101s ]
+
+[ 2017-07-11T09:54:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000921s ]
+
+[ 2017-07-11T09:54:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2017-07-11T09:54:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001629s ]
+
+[ 2017-07-11T10:02:56+08:00 ] 127.0.0.1 /index.php/Admin/Order/showData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0137s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_order` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `sp_order` ORDER BY order_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: is_pay D:\wamp\xiangmu\tpshop\Application\Admin\Controller\OrderController.class.php 第 74 行.
+NOTIC: [8] Undefined index: is_pay D:\wamp\xiangmu\tpshop\Application\Admin\Controller\OrderController.class.php 第 74 行.
+
+[ 2017-07-11T10:03:09+08:00 ] 127.0.0.1 /index.php/Admin/Order/showData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0038s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_order` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `sp_order` ORDER BY order_id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: is_pay D:\wamp\xiangmu\tpshop\Application\Admin\Controller\OrderController.class.php 第 74 行.
+NOTIC: [8] Undefined index: is_pay D:\wamp\xiangmu\tpshop\Application\Admin\Controller\OrderController.class.php 第 74 行.
+
+[ 2017-07-11T10:09:06+08:00 ] 127.0.0.1 /index.php/Admin/Order/showData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0061s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_order` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `sp_order` ORDER BY order_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: is_pay D:\wamp\xiangmu\tpshop\Application\Admin\Controller\OrderController.class.php 第 74 行.
+NOTIC: [8] Undefined index: is_pay D:\wamp\xiangmu\tpshop\Application\Admin\Controller\OrderController.class.php 第 74 行.
+
+[ 2017-07-11T10:09:14+08:00 ] 127.0.0.1 /index.php/Admin/Order/showData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0111s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_order` [ RunTime:0.0092s ]
+SQL: SELECT * FROM `sp_order` ORDER BY order_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: is_pay D:\wamp\xiangmu\tpshop\Application\Admin\Controller\OrderController.class.php 第 74 行.
+NOTIC: [8] Undefined index: is_pay D:\wamp\xiangmu\tpshop\Application\Admin\Controller\OrderController.class.php 第 74 行.
+
+[ 2017-07-11T10:25:04+08:00 ] 127.0.0.1 /index.php/Admin/Order/showData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000698s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0061s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_order` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `sp_order` ORDER BY order_id desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: is_pay D:\wamp\xiangmu\tpshop\Application\Admin\Controller\OrderController.class.php 第 74 行.
+NOTIC: [8] Undefined index: is_pay D:\wamp\xiangmu\tpshop\Application\Admin\Controller\OrderController.class.php 第 74 行.
+
+[ 2017-07-11T10:25:22+08:00 ] 127.0.0.1 /index.php/Admin/Order/showData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0112s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_order` [ RunTime:0.0209s ]
+SQL: SELECT * FROM `sp_order` ORDER BY order_id desc  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: is_pay D:\wamp\xiangmu\tpshop\Application\Admin\Controller\OrderController.class.php 第 74 行.
+NOTIC: [8] Undefined index: is_pay D:\wamp\xiangmu\tpshop\Application\Admin\Controller\OrderController.class.php 第 74 行.
+
+[ 2017-07-11T10:42:24+08:00 ] 127.0.0.1 /index.php/Admin/Order/showData
+ERR: Could not close zip file Order2017-07_tpshop订单表.xlsx.
+
+[ 2017-07-11T10:43:37+08:00 ] 127.0.0.1 /index.php/Admin/Order/showData
+ERR: Could not close zip file Order2017-07_tpshop订单表.xlsx.
+
+[ 2017-07-11T10:47:12+08:00 ] 127.0.0.1 /index.php/Admin/Order/showData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0106s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_order` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `sp_order` ORDER BY order_id desc  [ RunTime:0.0006s ]
+
+[ 2017-07-11T10:47:48+08:00 ] 127.0.0.1 /index.php/Admin/Order/showData
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0106s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_order` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `sp_order` ORDER BY order_id desc  [ RunTime:0.0010s ]
+
+[ 2017-07-11T15:12:08+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002145s ]
+
+[ 2017-07-11T15:12:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2017-07-11T15:12:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2017-07-11T15:12:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000910s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001367s ]
+
+[ 2017-07-11T15:12:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000399s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000637s ]
+
+[ 2017-07-11T15:13:02+08:00 ] 127.0.0.1 /index.php/Admin/Auth/tianjia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0061s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0053s ]
+SQL: INSERT INTO `sp_auth` (`auth_name`,`auth_pid`,`auth_c`,`auth_a`,`auth_level`) VALUES ('会员级别列表','122','User','level_list','1') [ RunTime:0.0796s ]
+
+[ 2017-07-11T15:15:13+08:00 ] 127.0.0.1 /index.php/Admin/Auth/tianjia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0104s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0103s ]
+SQL: INSERT INTO `sp_auth` (`auth_name`,`auth_pid`,`auth_c`,`auth_a`,`auth_level`) VALUES ('会员级别','0','','','0') [ RunTime:0.0654s ]
+
+[ 2017-07-11T15:16:48+08:00 ] 127.0.0.1 /index.php/Admin/Auth/tianjia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0065s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0056s ]
+SQL: INSERT INTO `sp_auth` (`auth_name`,`auth_pid`,`auth_c`,`auth_a`,`auth_level`) VALUES ('添加会员','125','Member','addMember','1') [ RunTime:0.0372s ]
+
+[ 2017-07-11T15:17:00+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-07-11T15:17:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2017-07-11T15:17:02+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-07-11T15:17:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2017-07-11T15:17:05+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000784s ]
+
+[ 2017-07-11T15:17:08+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+ERR: 无法加载控制器:Member
+
+[ 2017-07-11T15:17:50+08:00 ] 127.0.0.1 /index.php/Admin/Auth/tianjia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0069s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0125s ]
+SQL: INSERT INTO `sp_auth` (`auth_name`,`auth_pid`,`auth_c`,`auth_a`,`auth_level`) VALUES ('添加会员','125','Member','addMember','1') [ RunTime:0.0437s ]
+
+[ 2017-07-11T15:17:58+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000725s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001241s ]
+
+[ 2017-07-11T15:17:59+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-07-11T15:18:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002648s ]
+
+[ 2017-07-11T15:18:01+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000776s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001268s ]
+
+[ 2017-07-11T15:18:03+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000388s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2017-07-11T15:18:25+08:00 ] 127.0.0.1 /index.php/Admin/Auth/del.html
+ERR: 非法操作:del
+
+[ 2017-07-11T15:19:03+08:00 ] 127.0.0.1 /index.php/Admin/Auth/tianjia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0069s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0059s ]
+SQL: INSERT INTO `sp_auth` (`auth_name`,`auth_pid`,`auth_c`,`auth_a`,`auth_level`) VALUES ('会员级别列表','125','Member','showlist','1') [ RunTime:0.0713s ]
+
+[ 2017-07-11T15:19:11+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000861s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001396s ]
+
+[ 2017-07-11T15:19:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002643s ]
+
+[ 2017-07-11T15:19:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2017-07-11T15:19:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2017-07-11T15:19:16+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000662s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001058s ]
+
+[ 2017-07-11T15:22:06+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001632s ]
+
+[ 2017-07-11T15:22:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2017-07-11T15:22:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001321s ]
+
+[ 2017-07-11T15:22:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000402s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2017-07-11T15:22:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2017-07-11T15:30:51+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+ERR: 无法加载控制器:Member
+
+[ 2017-07-11T15:39:04+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0054s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011705s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2017-07-11T15:43:36+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0052s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0051s ]
+SQL: INSERT INTO `sp_member_level` (`level_name`,`level_rate`,`jifen_bottom`,`jifen_top`) VALUES ('青铜会员','100','0','5000') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000084s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009631s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009695s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2017-07-11T15:44:38+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0075s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0066s ]
+SQL: INSERT INTO `sp_member_level` (`level_name`,`level_rate`,`jifen_bottom`,`jifen_top`) VALUES ('白银会员','98','5001','10000') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000202s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2017-07-11T15:45:55+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0045s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0040s ]
+SQL: INSERT INTO `sp_member_level` (`level_name`,`level_rate`,`jifen_bottom`,`jifen_top`) VALUES ('黄金会员','96','10001','20000') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2017-07-11T15:46:25+08:00 ] 127.0.0.1 /index.php/Admin/Member/tianjia.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0068s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0005s ]
+ERR: 非法操作:tianjia
+
+[ 2017-07-11T15:46:53+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0044s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0040s ]
+SQL: INSERT INTO `sp_member_level` (`level_name`,`level_rate`,`jifen_bottom`,`jifen_top`) VALUES ('白金会员','90','20001','50000') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2017-07-11T15:47:14+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0106s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0096s ]
+SQL: INSERT INTO `sp_member_level` (`level_name`,`level_rate`,`jifen_bottom`,`jifen_top`) VALUES ('钻石会员','85','50001','100000') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005595s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005731s ]
+
+[ 2017-07-11T15:47:38+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0053s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0043s ]
+SQL: INSERT INTO `sp_member_level` (`level_name`,`level_rate`,`jifen_bottom`,`jifen_top`) VALUES ('终身会员','80','100001','300000') [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001130s ]
+
+[ 2017-07-11T15:51:07+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001204s ]
+
+[ 2017-07-11T15:51:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2017-07-11T15:51:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-07-11T15:51:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000702s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2017-07-11T15:51:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000628s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001006s ]
+
+[ 2017-07-11T16:04:59+08:00 ] 127.0.0.1 /index.php/Admin/Member/upd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0050s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `sp_member_level` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2017-07-11T16:06:17+08:00 ] 127.0.0.1 /index.php/Admin/Member/upd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0039s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-07-11T16:06:57+08:00 ] 127.0.0.1 /index.php/Admin/Member/upd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0036s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T16:07:13+08:00 ] 127.0.0.1 /index.php/Admin/Member/upd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0056s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-11T16:07:53+08:00 ] 127.0.0.1 /index.php/Admin/Member/upd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0073s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2017-07-11T16:09:35+08:00 ] 127.0.0.1 /index.php/Admin/Member/upd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0085s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0063s ]
+SQL: UPDATE `sp_member_level` SET `level_name`='终身会员',`level_rate`='80',`jifen_bottom`='100001',`jifen_top`='400000' WHERE `id` = 19 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000732s ]
+
+[ 2017-07-11T16:20:33+08:00 ] 127.0.0.1 /index.php/Admin/Member/del?id=19
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0069s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0071s ]
+SQL: UPDATE `sp_member_level` SET `flag`='0' WHERE `id` = 19 [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001599s ]
+
+[ 2017-07-11T16:21:03+08:00 ] 127.0.0.1 /index.php/Admin/Member/del?id=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0053s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0040s ]
+SQL: UPDATE `sp_member_level` SET `flag`='0' WHERE `id` = 14 [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2017-07-11T16:21:44+08:00 ] 127.0.0.1 /index.php/Admin/Member/del?id=19
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0108s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0099s ]
+SQL: UPDATE `sp_member_level` SET `flag`='0' WHERE `id` = 19 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002050s ]
+
+[ 2017-07-11T16:50:53+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000599s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000972s ]
+
+[ 2017-07-11T16:50:54+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000876s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001379s ]
+
+[ 2017-07-11T16:50:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001422s ]
+
+[ 2017-07-11T16:50:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001492s ]
+
+[ 2017-07-11T16:50:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001519s ]
+
+[ 2017-07-11T16:56:44+08:00 ] 127.0.0.1 /index.php/Admin/Goods/checkName.html?goods_name=s.gn%2Cdsfg+++++++++
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0104s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_name` = 's.gn,dsfg         ' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001785s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001905s ]
+
+[ 2017-07-11T16:57:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0066s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `sp_attribute` WHERE `type_id` = 1  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2017-07-11T16:58:19+08:00 ] 127.0.0.1 /index.php/Admin/Goods/checkName.html?goods_name=%E5%95%A5%E5%9C%B0%E6%96%B9%E5%B9%BF%E4%B8%9C%E7%9C%81
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0036s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_name` = '啥地方广东省' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2017-07-11T16:58:32+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000527s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0047s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `sp_attribute` WHERE `type_id` = 2  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001066s ]
+
+[ 2017-07-11T17:05:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/checkName.html?goods_name=%E9%83%BD%E6%98%AF%E7%AC%A6%E5%90%88%E5%85%AC%E5%8F%B8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0065s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_name` = '都是符合公司' LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001576s ]
+
+[ 2017-07-11T17:05:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0039s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `sp_attribute` WHERE `type_id` = 2  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2017-07-11T17:06:41+08:00 ] 127.0.0.1 /index.php/Admin/Goods/checkName.html?goods_name=%E8%BA%AB%E4%BB%BD%E5%91%8A%E8%AF%89%E6%B3%95%E8%A7%84
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0039s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_name` = '身份告诉法规' LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000903s ]
+
+[ 2017-07-11T18:14:29+08:00 ] 127.0.0.1 /index.php/Admin/Goods/checkName.html?goods_name=MSI%E5%8D%AB%E6%98%9FGE62%E7%AC%94%E8%AE%B0%E6%9C%AC%E7%94%B5%E8%84%91
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001292s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0033s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_name` = 'MSI卫星GE62笔记本电脑' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000464s ]
+
+[ 2017-07-11T18:15:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType?type_id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0035s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `sp_attribute` WHERE `type_id` = 2  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000978s ]
+
+[ 2017-07-11T19:46:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000695s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2017-07-11T19:46:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000769s ]
+
+[ 2017-07-11T19:46:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000653s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001056s ]
+
+[ 2017-07-11T19:46:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000842s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001359s ]
+
+[ 2017-07-11T19:46:15+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000630s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001009s ]
+
+[ 2017-07-11T19:49:25+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0114s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0110s ]
+SQL: INSERT INTO `sp_member_level` (`level_name`,`level_rate`,`jifen_bottom`,`jifen_top`) VALUES ('','0','0','0') [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000097s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000170s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010731s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010805s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000808s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2017-07-11T19:49:38+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0110s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0099s ]
+SQL: INSERT INTO `sp_member_level` (`level_name`,`level_rate`,`jifen_bottom`,`jifen_top`) VALUES ('','0','0','0') [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000880s ]
+
+[ 2017-07-11T19:50:55+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0056s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0060s ]
+SQL: INSERT INTO `sp_member_level` (`level_name`,`level_rate`,`jifen_bottom`,`jifen_top`) VALUES ('','0','0','0') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010827s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2017-07-11T19:53:25+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0071s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0061s ]
+SQL: INSERT INTO `sp_member_level` (`level_name`,`level_rate`,`jifen_bottom`,`jifen_top`) VALUES ('','0','0','0') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000194s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-07-11T19:56:39+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0079s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0072s ]
+SQL: INSERT INTO `sp_member_level` (`level_name`,`level_rate`,`jifen_bottom`,`jifen_top`) VALUES ('','0','0','0') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000225s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014215s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000548s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001178s ]
+
+[ 2017-07-11T19:57:28+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0127s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0116s ]
+
+[ 2017-07-11T20:01:01+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0056s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0051s ]
+
+[ 2017-07-11T20:01:57+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0039s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0033s ]
+
+[ 2017-07-11T20:03:50+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0068s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0032s ]
+
+[ 2017-07-11T20:04:45+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0062s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0054s ]
+
+[ 2017-07-11T20:11:30+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2017-07-11T20:11:31+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2017-07-11T20:11:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000950s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001529s ]
+
+[ 2017-07-11T20:11:33+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000519s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2017-07-11T20:11:35+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000827s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2017-07-11T20:12:29+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002218s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003297s ]
+
+[ 2017-07-11T20:12:30+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002461s ]
+
+[ 2017-07-11T20:12:31+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001240s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001828s ]
+
+[ 2017-07-11T20:12:32+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000613s ]
+
+[ 2017-07-11T20:12:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2017-07-11T20:12:41+08:00 ] 127.0.0.1 /index.php/Admin/MemberLevel/addMember
+ERR: 无法加载控制器:MemberLevel
+
+[ 2017-07-11T20:13:22+08:00 ] 127.0.0.1 /index.php/Admin/MemberLevel/addMember
+ERR: 模板不存在:./Application/Admin/View/MemberLevel/addMember.html
+
+[ 2017-07-11T20:13:58+08:00 ] 127.0.0.1 /index.php/Admin/Member/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+ERR: 无法加载控制器:Member
+
+[ 2017-07-11T20:15:08+08:00 ] 127.0.0.1 /index.php/Admin/MemberLevel/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0039s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0070s ]
+
+[ 2017-07-11T20:19:38+08:00 ] 127.0.0.1 /index.php/Admin/MemberLevel/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0104s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0075s ]
+SQL: INSERT INTO `sp_member_level` (`level_name`,`level_rate`,`jifen_bottom`,`jifen_top`) VALUES ('霸王会员','0','500000','600000') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000189s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000617s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001103s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2017-07-11T20:21:46+08:00 ] 127.0.0.1 /index.php/Admin/MemberLevel/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0039s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0030s ]
+SQL: INSERT INTO `sp_member_level` (`level_name`,`level_rate`,`jifen_bottom`,`jifen_top`) VALUES ('霸王会员','0','500000','600000') [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005184s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005217s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000398s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000424s ]
+
+[ 2017-07-11T20:23:20+08:00 ] 127.0.0.1 /index.php/Admin/MemberLevel/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0078s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0079s ]
+SQL: INSERT INTO `sp_member_level` (`level_name`,`level_rate`,`jifen_bottom`,`jifen_top`) VALUES ('霸王会员','0','500000','600000') [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2017-07-11T20:25:16+08:00 ] 127.0.0.1 /index.php/Admin/MemberLevel/addMember
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0036s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0055s ]
+SQL: INSERT INTO `sp_member_level` (`level_name`,`level_rate`,`jifen_bottom`,`jifen_top`) VALUES ('霸王会员','0','500000','600000') [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002018s ]
+
+[ 2017-07-11T20:25:28+08:00 ] 127.0.0.1 /index.php/Admin/MemberLevel/del?id=28
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0103s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0098s ]
+SQL: UPDATE `sp_member_level` SET `flag`='0' WHERE `id` = 28 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001929s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002051s ]
+
+[ 2017-07-11T20:26:43+08:00 ] 127.0.0.1 /index.php/Admin/MemberLevel/upd
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0108s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_member_level` [ RunTime:0.0100s ]
+SQL: UPDATE `sp_member_level` SET `level_name`='霸王会员',`level_rate`='0',`jifen_bottom`='500000',`jifen_top`='700000' WHERE `id` = 28 [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001657s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001778s ]
+

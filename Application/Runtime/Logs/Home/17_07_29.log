@@ -1,0 +1,64 @@
+[ 2017-07-29T20:21:45+08:00 ] 127.0.0.1 /index.php/Home/Kill/check_num
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000729s ]
+
+[ 2017-07-29T20:21:46+08:00 ] 127.0.0.1 /index.php/Home/Kill/addCart?goods_id=43
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-29T20:21:57+08:00 ] 127.0.0.1 /index.php/Home/Kill/addCart?goods_id=43
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-29T20:21:57+08:00 ] 127.0.0.1 /index.php/Home/Kill/check_num
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000745s ]
+
+[ 2017-07-29T20:22:04+08:00 ] 127.0.0.1 /index.php/Home/Kill/check_num
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2017-07-29T20:22:05+08:00 ] 127.0.0.1 /index.php/Home/Kill/addCart?goods_id=43
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-29T20:24:14+08:00 ] 127.0.0.1 /index.php/Home/Kill/check_num
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000938s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000592s ]
+
+[ 2017-07-29T20:24:15+08:00 ] 127.0.0.1 /index.php/Home/Kill/addCart?goods_id=43
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 43 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+

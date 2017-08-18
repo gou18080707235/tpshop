@@ -1,0 +1,9 @@
+[ 2017-07-08T15:28:09+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/35.html
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'itshop.attribute' doesn't exist
+
+[ 2017-07-08T15:28:49+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/35.html
+ERR: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'ga.godos_id' in 'where clause'
+
+[ 2017-07-08T15:30:15+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/35.html
+ERR: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '.attr_name,ga.attr_value FROM sp_goods_attr ga INNER JOIN sp_attribute as a on g' at line 1
+

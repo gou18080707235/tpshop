@@ -1,0 +1,111 @@
+{__NOLAYOUT__}
+<layout name="Pub/layout2" />
+	<link rel="stylesheet" href="__PUBLIC__/Home/style/cart.css" type="text/css">
+	<link rel="stylesheet" href="__PUBLIC__/Home/style/footer.css" type="text/css">
+
+
+	
+	<div style="clear:both;"></div>
+
+	<!-- 主体部分 start -->
+	<div class="mycart w990 mt10 bc">
+		<h2><span>我的购物车</span></h2>
+		<table>
+			<thead>
+				<tr>
+					<th class="col1">商品名称</th>
+					<th class="col2">商品信息</th>
+					<th class="col3">单价</th>
+					<th class="col4">数量</th>	
+					<th class="col5">小计</th>
+					<th class="col6">操作</th>
+				</tr>
+			</thead>
+			<tbody>
+            <foreach name="cartInfo" item="v">
+				<tr>
+					<td class="col1"><a href=""><img src="{:substr($v['logo'],1)}" alt="" /></a>  <strong><a href="">{$v['goods_name']}</a></strong></td>
+					<td class="col2"> <p>颜色：073深红</p> <p>尺码：170/92A/S</p> </td>
+					<td class="col3">￥<span>{$v['goods_price']}</span></td>
+					<td class="col4"> 
+						<a href="javascript:;" class="reduce_num" onclick="modify_number('red',{$v['goods_id']})"></a>
+						<input type="text" name="amount" value="{$v['goods_buy_number']}" class="amount" id="goods_number_{$v['goods_id']}" onchange="modify_number('mod',{$v['goods_id']})"/>
+						<a href="javascript:;" class="add_num" onclick="modify_number('add',{$v['goods_id']})"></a>
+					</td>
+					<td class="col5">￥<span id="goods_xiaoji_{$v['goods_id']}">{$v['goods_total_price']}</span></td>
+					<td class="col6"><a href="javascript:if(confirm('您真的要删除该商品么？')){del_goods({$v['goods_id']})}">删除</a></td>
+				</tr>
+            </foreach>
+
+			</tbody>
+			<tfoot>
+				<tr>
+					<td colspan="6">购物金额总计： <strong>￥ <span id="total">{$number_price['price']}</span></strong></td>
+				</tr>
+			</tfoot>
+		</table>
+		<div class="cart_btn w990 bc mt10">
+			<a href="{:U('Home/Goods/showlist')}" class="continue">继续购物</a>
+			<a href="{:U('Goods/goodsOrder')}" class="checkout">结 算</a>
+		</div>
+	</div>
+	<!-- 主体部分 end -->
+
+	<div style="clear:both;"></div>
+	<script>
+        //给购物车实现增，减，修改操作
+        function modify_number(flag,goods_id){
+            //获得当前被修改的商品数量
+            var num=$('#goods_number_'+goods_id).val();
+            //alert(num);
+            if(flag=='red'){
+                if(num==1){
+                    alert('单件购买的商品数量不能少于一个，或直接删除');
+                    return false;
+                }
+                num--
+            }else if(flag=='mod'){
+                var reg=/^([1-9]|1\d|20)$/;
+                if(num.match(reg)==null){
+                    alert('修改的数量必须是正整数，要求为1-20之间');
+                    window.location.href=window.location.href;
+                    return false;
+                }
+            }else if(flag=='add'){
+                num++
+                if(num>20){
+                    alert('商品的最大购买数量要求为1-20之间');
+                    return false;
+                }
+            }else{
+                alert('参数不合法');
+                return false;
+            }
+            $.ajax({
+                url:'/index.php/Home/Shop/changeNumber',
+                data:{goods_id:goods_id,num:num},
+                type:'post',
+                dataType:'json',
+                success:function(msg){
+                    //使得数量，小计价格，总价格得到更新
+                    $('#goods_number_'+goods_id).val(num);
+                    $('#goods_xiaoji_'+goods_id).html(msg.xiaoji_price);
+                    $('#total').html(msg.total_price);
+                }
+            });
+
+        }
+        function del_goods(goods_id){
+            $.ajax({
+                url:'/index.php/Home/Shop/delGoods',
+                type:'get',
+                dataType:'json',
+                data:{goods_id:goods_id},
+                success:function(msg){
+                    $('#goods_xiaoji_'+goods_id).parent().parent().parent().remove();
+                    $('#total').html(msg.price);
+                }
+            });
+        }
+
+	</script>

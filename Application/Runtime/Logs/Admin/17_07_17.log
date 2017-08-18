@@ -1,0 +1,230 @@
+[ 2017-07-17T08:47:58+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000989s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001710s ]
+
+[ 2017-07-17T08:48:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002158s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003669s ]
+
+[ 2017-07-17T08:48:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002202s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003856s ]
+
+[ 2017-07-17T08:48:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003602s ]
+
+[ 2017-07-17T08:48:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002148s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003635s ]
+
+[ 2017-07-17T08:48:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001212s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002064s ]
+
+[ 2017-07-17T08:48:51+08:00 ] 127.0.0.1 /index.php/Admin/Order/kuaidi?res=zhongtong-143123412312&order_id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0118s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `sp_backage` [ RunTime:0.0414s ]
+SQL: SELECT * FROM `sp_backage` WHERE `order_id` = 9 LIMIT 1   [ RunTime:0.0009s ]
+SQL: INSERT INTO `sp_backage` (`backage_state`,`order_id`,`backage_number`) VALUES ('快递已打包，正在通知快递公司揽件','9','143123412312') [ RunTime:0.0757s ]
+SQL: SHOW COLUMNS FROM `sp_order` [ RunTime:0.0120s ]
+SQL: UPDATE `sp_order` SET `is_send`='是' WHERE `order_id` = 9 [ RunTime:0.0284s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002418s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002554s ]
+
+[ 2017-07-17T08:49:55+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000916s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2017-07-17T08:49:56+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000468s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000793s ]
+
+[ 2017-07-17T08:49:57+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001328s ]
+
+[ 2017-07-17T08:49:58+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2017-07-17T08:50:00+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001810s ]
+
+[ 2017-07-17T08:55:26+08:00 ] 127.0.0.1 /index.php/Admin/Manager/showlist
+ERR: 非法操作:showlist
+
+[ 2017-07-17T08:56:07+08:00 ] 127.0.0.1 /index.php/Admin/Role/tianjia.html
+ERR: 非法操作:tianjia
+
+[ 2017-07-17T17:17:56+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000771s ]
+
+[ 2017-07-17T17:18:06+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000931s ]
+
+[ 2017-07-17T17:18:07+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2017-07-17T17:18:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000848s ]
+
+[ 2017-07-17T17:18:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2017-07-17T17:18:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2017-07-17T18:40:52+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2017-07-17T18:41:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000873s ]
+
+[ 2017-07-17T18:41:09+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2017-07-17T18:41:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000565s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000950s ]
+
+[ 2017-07-17T18:41:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000546s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2017-07-17T18:41:13+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000825s ]
+
+[ 2017-07-17T18:41:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttrByType?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0044s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `sp_attribute` WHERE `type_id` = 1  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000586s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000618s ]
+
+[ 2017-07-17T18:41:38+08:00 ] 127.0.0.1 /index.php/Admin/Type/upd.html
+ERR: 非法操作:upd
+
+[ 2017-07-17T18:41:44+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0044s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0036s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type as t on a.type_id=t.type_id  WHERE a.type_id = '1'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000569s ]
+
+[ 2017-07-17T18:41:55+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/updAttr/attr_id/1.html
+ERR: 非法操作:updAttr
+
+[ 2017-07-17T18:41:58+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0045s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0035s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type as t on a.type_id=t.type_id  WHERE a.type_id = '1'  [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000575s ]
+
+[ 2017-07-17T18:42:01+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/delAttr/attr_id/1.html
+ERR: 非法操作:delAttr
+
+[ 2017-07-17T18:42:04+08:00 ] 127.0.0.1 /index.php/Admin/Attribute/getAttrInfoByType?type_id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0041s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0036s ]
+SQL: SELECT a.*,t.type_name FROM sp_attribute a INNER JOIN sp_type as t on a.type_id=t.type_id  WHERE a.type_id = '1'  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2017-07-17T20:10:09+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001548s ]
+
+[ 2017-07-17T20:10:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000687s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2017-07-17T20:10:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001050s ]
+
+[ 2017-07-17T20:10:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000713s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2017-07-17T20:10:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001054s ]
+
+[ 2017-07-17T20:10:30+08:00 ] 127.0.0.1 /index.php/Admin/Goods/staticHtml
+ERR: 模板不存在:./Application/Admin/View/Home/Goods/detail.html
+
+[ 2017-07-17T20:11:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/staticHtml
+ERR: 模板不存在:./Application/Admin/View//Home/Goods/detail.html
+
+[ 2017-07-17T20:13:16+08:00 ] 127.0.0.1 /index.php/Admin/Goods/staticHtml
+ERR: 模板不存在:./Application/Admin/View/./Application/Home/View/Goods/detail.html
+
+[ 2017-07-17T20:13:26+08:00 ] 127.0.0.1 /index.php/Admin/Goods/staticHtml
+ERR: 模板不存在:./Application/Admin/View//Application/Home/View/Goods/detail.html
+

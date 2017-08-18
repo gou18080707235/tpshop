@@ -1,0 +1,42 @@
+[ 2017-07-19T19:34:25+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003489s ]
+
+[ 2017-07-19T19:34:34+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000603s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001016s ]
+
+[ 2017-07-19T19:34:35+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001092s ]
+
+[ 2017-07-19T19:34:36+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000597s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2017-07-19T19:34:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001127s ]
+
+[ 2017-07-19T19:34:39+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2017-07-19T19:34:52+08:00 ] 127.0.0.1 /index.php/Admin/Goods/checkName.html?goods_name=%E8%8C%B6%E6%9D%AF
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `sp_manager` [ RunTime:0.0054s ]
+SQL: SELECT r.role_auth_ac FROM sp_manager m INNER JOIN sp_role as r on m.role_id=r.role_id  WHERE m.mg_id = '502' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_name` = '茶杯' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+

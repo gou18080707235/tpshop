@@ -1,0 +1,138 @@
+[ 2017-07-14T10:06:16+08:00 ] 127.0.0.1 /index.php/Home/User/register.html
+ERR: 非法操作:register
+
+[ 2017-07-14T11:09:12+08:00 ] 127.0.0.1 /index.php/Home/User/register.html
+ERR: 非法操作:register
+
+[ 2017-07-14T13:50:59+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=18111010506
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2017-07-14T13:51:20+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=18111010506
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002518s ]
+
+[ 2017-07-14T13:52:56+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=18111010506
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002454s ]
+
+[ 2017-07-14T13:54:14+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=18111010506
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+
+[ 2017-07-14T13:54:41+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=18111010506
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+
+[ 2017-07-14T13:56:09+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=18111010506
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000810s ]
+
+[ 2017-07-14T13:57:08+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=18111010506
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002274s ]
+
+[ 2017-07-14T14:06:40+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=18111010506
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002258s ]
+
+[ 2017-07-14T14:07:55+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001317s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001420s ]
+
+[ 2017-07-14T14:07:59+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002150s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002317s ]
+
+[ 2017-07-14T14:08:11+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=18111010506
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000856s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000986s ]
+
+[ 2017-07-14T16:07:24+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001655s ]
+
+[ 2017-07-14T16:07:50+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=18111010506
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000823s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2017-07-14T16:23:09+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=18111010506
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000692s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2017-07-14T19:01:57+08:00 ] 127.0.0.1 /index.php/Home/User/fast_regist.html
+ERR: 非法操作:fast_regist
+
+[ 2017-07-14T19:05:04+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2017-07-14T19:05:25+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+
+[ 2017-07-14T19:05:47+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=18111010506
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000948s ]
+
+[ 2017-07-14T19:06:13+08:00 ] 127.0.0.1 /index.php/Home/User/sendCode?user_tel=18111010506
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001731s ]
+

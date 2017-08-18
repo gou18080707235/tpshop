@@ -1,0 +1,375 @@
+[ 2017-07-11T11:02:49+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 35 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-11T11:02:58+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=36
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 36 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-11T11:03:03+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000365s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-07-11T11:03:03+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-07-11T11:03:03+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-07-11T11:03:04+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000395s ]
+
+[ 2017-07-11T11:03:04+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000507s ]
+
+[ 2017-07-11T11:03:05+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000663s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2017-07-11T11:03:05+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000410s ]
+
+[ 2017-07-11T11:03:05+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000400s ]
+
+[ 2017-07-11T11:15:51+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=36
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 36 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-11T11:15:54+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-07-11T11:15:55+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000389s ]
+
+[ 2017-07-11T11:15:57+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-07-11T11:15:57+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-07-11T11:15:57+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2017-07-11T11:15:57+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-07-11T11:15:58+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-07-11T11:15:58+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000701s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2017-07-11T11:15:59+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-07-11T11:15:59+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-07-11T11:16:09+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 35 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-11T11:16:13+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2017-07-11T11:16:15+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-07-11T11:16:16+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000403s ]
+
+[ 2017-07-11T11:16:16+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-07-11T11:16:16+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000423s ]
+
+[ 2017-07-11T11:16:17+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000387s ]
+
+[ 2017-07-11T11:16:17+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-07-11T11:16:17+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-07-11T11:16:19+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-07-11T11:16:20+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000388s ]
+
+[ 2017-07-11T11:16:20+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000380s ]
+
+[ 2017-07-11T11:16:20+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2017-07-11T11:16:20+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000361s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000391s ]
+
+[ 2017-07-11T11:16:20+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2017-07-11T11:16:20+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000350s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000379s ]
+
+[ 2017-07-11T11:16:22+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000386s ]
+
+[ 2017-07-11T11:16:22+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000376s ]
+
+[ 2017-07-11T11:16:22+08:00 ] 127.0.0.1 /index.php/Home/Shop/changeNumber
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000381s ]
+
+[ 2017-07-11T13:38:41+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 35 LIMIT 1   [ RunTime:0.0011s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-11T17:21:13+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/40.html
+ERR: Think\Model:flied方法不存在！
+
+[ 2017-07-11T18:58:49+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=41
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 41 LIMIT 1   [ RunTime:0.0007s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+

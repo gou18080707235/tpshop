@@ -1,0 +1,30 @@
+[ 2017-07-16T09:22:55+08:00 ] 127.0.0.1 /index.php/Admin/
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001641s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002863s ]
+
+[ 2017-07-16T09:23:08+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003666s ]
+
+[ 2017-07-16T09:23:10+08:00 ] 127.0.0.1 /index.php/Admin/Index/top.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003304s ]
+
+[ 2017-07-16T09:23:11+08:00 ] 127.0.0.1 /index.php/Admin/Index/center.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003044s ]
+
+[ 2017-07-16T09:23:12+08:00 ] 127.0.0.1 /index.php/Admin/Index/down.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002841s ]
+
+[ 2017-07-16T09:23:14+08:00 ] 127.0.0.1 /index.php/Admin/Index/right.html
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001890s ]
+

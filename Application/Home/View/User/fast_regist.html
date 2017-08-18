@@ -1,0 +1,67 @@
+{__NOLAYOUT__}
+<layout name="Pub/layout2" />
+<link rel="stylesheet" href="{:C('CSS_URL')}footer.css" type="text/css">
+<script src="__PUBLIC__/Home/js/jquery-1.8.3.min.js"></script>
+
+
+<!-- 登录主体部分start -->
+<div class="login w990 bc mt10 regist">
+    <div class="login_hd">
+        <h2>用户注册</h2>
+        <b></b>
+    </div>
+    <div class="login_bd">
+        <div class="login_form fl">
+            <form action="__SELF__" method="post">
+                <ul>
+                    <li>
+                        <label for="">手机号码：</label>
+                        <input type="text" class="txt" id="code" />
+                        <input type="button" value="发送验证码" onclick="sendCode()">
+                        <span id="msgresult"></span>
+                    </li>
+                    
+                    <li class="checkcode">
+                        <label for="">验证码：</label>
+                        <input type="text"  name="code" />
+                        <span>{$errorInfo|default=''}</span>
+                    </li>
+                    <li>
+                        <label for="">&nbsp;</label>
+                        <input type="checkbox" class="chb" checked="checked" /> 我已阅读并同意《用户注册协议》
+                    </li>
+                    <li>
+                        <label for="">&nbsp;</label>
+                        <input type="submit" value="" class="login_btn" />
+                    </li>
+                </ul>
+            </form>
+
+
+        </div>
+
+
+
+    </div>
+</div>
+<!-- 登录主体部分end -->
+
+<div style="clear:both;"></div>
+<script>
+    function sendCode(){
+        var code=$('#code').val();
+        $.ajax({
+            url:'/index.php/Home/User/sendCode',
+            dataType:'json',
+            data:{'user_tel':code},
+            type:'get',
+            success:function(msg){
+                if(msg.status===0){
+                    $('#msgresult').html('验证码发送成功.....');
+                }else{
+                    $('#msgresult').html('验证码发送失败.....');
+                }
+            }
+        });
+    }
+</script>

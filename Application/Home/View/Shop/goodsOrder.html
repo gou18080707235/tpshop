@@ -1,0 +1,147 @@
+{__NOLAYOUT__}
+<layout name="Pub/layout2" />
+	<link rel="stylesheet" href="__PUBLIC__/Home/style/fillin.css" type="text/css">
+	<link rel="stylesheet" href="__PUBLIC__/Home/style/footer.css" type="text/css">
+
+
+	<script type="text/javascript" src="__PUBLIC__/Home/js/cart2.js"></script>
+
+
+	
+	<div style="clear:both;"></div>
+
+	<!-- 主体部分 start -->
+	<form action="" method="post">
+	<div class="fillin w990 bc mt15">
+		<div class="fillin_hd">
+			<h2>填写并核对订单信息</h2>
+		</div>
+
+		<div class="fillin_bd">
+			<!-- 收货人信息  start-->
+			<div class="address">
+				<h3>收货人信息 <a href="javascript:;" id="address_modify">[修改]</a></h3>
+
+
+				<div class="address_select">
+					<ul>
+						<foreach name="address" item="v">
+							<li class="cur">
+							<input type="radio" name="cgn_id" checked="checked" value="{$v['cgn_id']}"/>{$v['cgn_name']} {$v['cgn_address']} {$v['cgn_tel']}
+							<a href="">设为默认地址</a>
+							<a href="">编辑</a>
+							<a href="">删除</a>
+						</li>
+						</foreach>
+						<li><input type="radio" name="address" class="new_address"  />使用新地址</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 收货人信息  end-->
+
+
+
+			<!-- 支付方式  start-->
+			<div class="pay">
+				<h3>支付方式 <a href="javascript:;" id="pay_modify">[修改]</a></h3>
+
+				<div class="pay_select">
+					<table> 
+						<tr class="cur">
+							<td class="col1"><input type="radio" name="order_pay" value="0" checked="checked"/>支付宝</td>
+						</tr>
+						<tr>
+							<td class="col1"><input type="radio" name="order_pay" value="1"/>微信</td>
+						</tr>
+						<tr>
+							<td class="col1"><input type="radio" name="order_pay" value="2"/>银行卡</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<!-- 支付方式  end-->
+
+			<!-- 发票信息 start-->
+			<div class="receipt">
+				<h3>发票信息 <a href="javascript:;" id="receipt_modify">[修改]</a></h3>
+				<div class="receipt_info">
+					<p>个人发票</p>
+					<p>内容：明细</p>
+				</div>
+
+				<div class="receipt_select>
+						<ul>
+							<li>
+								<label for="">发票抬头：</label>
+								<input type="radio" name="order_fapiao_title" checked="checked" class="personal" value="0"/>个人
+								<input type="radio" name="order_fapiao_title" class="company" value="1"/>单位
+								<input type="text" class="txt company_input" name="order_fapiao_company" />
+							</li>
+							<li>
+								<label for="">发票内容：</label>
+								<input type="radio" name="order_fapiao_content" checked="checked" value="明细"/>明细
+								<input type="radio" name="order_fapiao_content" value="办公用品"/>办公用品
+								<input type="radio" name="order_fapiao_content" value="体育休闲"/>体育休闲
+								<input type="radio" name="order_fapiao_content" value="耗材"/>耗材
+							</li>
+						</ul>
+
+				</div>
+			</div>
+			<!-- 发票信息 end-->
+
+			<!-- 商品清单 start -->
+			<div class="goods">
+				<h3>商品清单</h3>
+				<table>
+					<thead>
+						<tr>
+							<th class="col1">商品</th>
+							<th class="col2">规格</th>
+							<th class="col3">价格</th>
+							<th class="col4">数量</th>
+							<th class="col5">小计</th>
+						</tr>	
+					</thead>
+					<tbody>
+					<foreach name="cartInfo" item="v">
+						<tr>
+							<td class="col1"><a href=""><img src="{:substr($v['logo'],1)}" alt="" /></a>  <strong><a href="">{$v['goods_name']}</a></strong></td>
+							<td class="col2"> <p>颜色：073深红</p> <p>尺码：170/92A/S</p> </td>
+							<td class="col3">￥{$v['goods_price']}</td>
+							<td class="col4"> {$v['goods_buy_number']}</td>
+							<td class="col5"><span>￥{$v['goods_total_price']}</span></td>
+						</tr>
+					</foreach>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan="5">
+								<ul>
+									<li>
+										<span>{$number_price.number}件商品，总商品金额：</span>
+										<em>￥{$number_price.price}</em>
+									</li>
+									<li>
+										<span>应付总额：</span>
+										<em>￥{$number_price.price}</em>
+									</li>
+								</ul>
+							</td>
+						</tr>
+					</tfoot>
+				</table>
+			</div>
+			<!-- 商品清单 end -->
+		
+		</div>
+
+		<div class="fillin_ft">
+			<input type="submit" value="提交订单">
+			<p>应付总额：<strong>￥{$number_price.price}</strong></p>
+			
+		</div>
+	</div>
+	<!-- 主体部分 end -->
+	</form>
+	<div style="clear:both;"></div>

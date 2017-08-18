@@ -1,0 +1,174 @@
+[ 2017-07-09T12:34:01+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-07-09T12:34:06+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2017-07-09T12:34:15+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000443s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2017-07-09T12:35:49+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000754s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000523s ]
+
+[ 2017-07-09T12:36:26+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-07-09T12:37:02+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-07-09T12:47:04+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-09T12:47:24+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-09T12:48:25+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000786s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 35 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-09T12:48:42+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 35 LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-09T12:48:49+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+ERR: 非法操作:viewCart
+
+[ 2017-07-09T13:00:34+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000886s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 35 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-09T13:00:44+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 35 LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-09T13:00:52+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 35 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-09T13:00:54+08:00 ] 127.0.0.1 /index.php/Home/Shop/viewCart.html
+ERR: 非法操作:viewCart
+
+[ 2017-07-09T13:40:32+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 35 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-09T13:40:39+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 35 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-09T13:40:45+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 35 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-09T13:40:54+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 35 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-09T16:51:06+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002115s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 35 LIMIT 1   [ RunTime:0.0012s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-09T16:58:18+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=36
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-09T17:00:59+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=36
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 36 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-09T17:19:23+08:00 ] 127.0.0.1 /index.php/Home/Shop/addCart?goods_id=35
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `sp_goods` WHERE `goods_id` = 35 LIMIT 1   [ RunTime:0.0009s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\xiangmu\tpshop\Application\Home\Common\Cart.class.php 第 23 行.
+
